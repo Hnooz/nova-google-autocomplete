@@ -26,7 +26,7 @@ class AddressMetadata extends Text
             ->resolveUsing(function ($value) {
                 return json_encode($value);
             })
-            ->fillUsing(function ($request, $model, $attribute, $requestAttribute) {
+            ->fillUsing(function ($request, $model, $attribute, $requestAttribute): void {
                 if ($request->exists($requestAttribute)) {
                     $model->{$attribute} = json_decode($request[$requestAttribute], true);
                 }
