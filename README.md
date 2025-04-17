@@ -1,18 +1,17 @@
 # Nova Google AutoComplete Field Package
 
-[![Latest Version](https://img.shields.io/github/release/yieldstudio/nova-google-autocomplete?style=flat-square)](https://github.com/yieldstudio/nova-google-autocomplete/releases)
-[![Total Downloads](https://img.shields.io/packagist/dt/yieldstudio/nova-google-autocomplete?style=flat-square)](https://packagist.org/packages/yieldstudio/nova-google-autocomplete)
+[![Latest Version](https://img.shields.io/github/release/hnooz/nova-google-autocomplete?style=flat-square)](https://github.com/hnooz/nova-google-autocomplete/releases)
 
 This field allows you to work with Google Places API to autocomplete on user input and get the full real address with all the metadata (like latitude and longitude).
 
-Fork from [emilianotisato/nova-google-autocomplete-field](https://github.com/emilianotisato/nova-google-autocomplete-field) to maintain package.
+Fork from [yieldstudio/nova-google-autocomplete-field](https://github.com/yieldstudio/nova-google-autocomplete) to maintain package.
 
-## Installation
+<!-- ## Installation
 
 You can install the package in to a Laravel app that uses Nova via composer:
 
 ```bash
-composer require yieldstudio/nova-google-autocomplete
+composer require hnooz/nova-google-autocomplete
 ```
 
 Now publish config and localization files:
@@ -170,13 +169,11 @@ Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 
 ### Security
 
-If you've found a bug regarding security please mail [contact@yieldstudio.fr](mailto:contact@yieldstudio.fr) instead of using the issue tracker.
+If you've found a bug regarding security please mail [contact@yieldstudio.fr](mailto:contact@yieldstudio.fr) instead of using the issue tracker. -->
 
 ## Credits
-
-- [Emiliano Tisato](https://github.com/emilianotisato) - Original developer
-- [James Hemery](https://github.com/jameshemery) - Fork maintainer
-- [Simon Depelchin](https://github.com/depsimon) - Contributor
+- [James Hemery](https://github.com/jameshemery) - Original developer
+- [Mohamed Idris](https://github.com/hnooz) - Fork maintainer
 
 ## License
 
